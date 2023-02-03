@@ -1,5 +1,5 @@
 class Product {
-  static id = 0;
+  static id = 0
   static code = () => parseInt(Math.random() * 10000);
   constructor(title, description, price, thumbnail, stock) {
     this.id = Product.id++;
